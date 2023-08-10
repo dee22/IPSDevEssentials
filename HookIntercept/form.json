@@ -1,0 +1,22 @@
+{
+  "elements": [
+    {
+      "type": "Label",
+      "name": "LOPHIInfotext",
+      "caption": "Zur Zeit sind keine Informationen verfügbar."
+    }
+  ],
+  "actions": [
+    {
+      "type": "Button",
+      "caption": "Register Interceptions",
+      "onClick": "LOPHI_RegisterIntercepts($id);"
+    },
+    {
+      "type": "Button",
+      "caption": "Unregister Interceptions",
+      "onClick": "LOPHI_UnregisterIntercepts($id);"
+    }
+  ],
+  "status": []
+}

@@ -1,0 +1,12 @@
+{
+    "id": "{0D042271-DD75-37F8-5EA6-E1F48711555A}",
+    "name": "IPSDevEssentials",
+    "author": "Dee",
+    "url": "https://github.com/dee22/IPSDevEssentials",
+    "compatibility": {
+        "version": "6.4"
+    },
+    "version": "0.1",
+    "build": 1,
+    "date": 1691315243
+}

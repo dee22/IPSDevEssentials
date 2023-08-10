@@ -1,0 +1,12 @@
+{
+  "id": "{8D477E64-B556-CC60-C09A-AC004B41F4DF}",
+  "name": "HookIntercept",
+  "type": 0,
+  "vendor": "",
+  "aliases": [],
+  "parentRequirements": [],
+  "childRequirements": [],
+  "implemented": [],
+  "prefix": "LOPHI",
+  "url": "https://github.com/dee22/IPSLandOfPlenty/HookIntercept"
+}
