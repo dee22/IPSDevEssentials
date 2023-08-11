@@ -2,20 +2,68 @@
   "elements": [
     {
       "type": "Label",
-      "name": "LOPHIInfotext",
-      "caption": "Zur Zeit sind keine Informationen verfügbar."
+      "name": "Infotext",
+      "caption": "Fügen sie Skripte oder Weiterleitungen hinzu um das Modul zu nutzen."
+    },
+    {
+      "type": "CheckBox",
+      "name": "DebugLog",
+      "caption": "Log traffic in debug mode."
+    },
+    {
+      "type": "List",
+      "name": "Middleware",
+      "caption": "Middleware",
+      "rowCount": 5,
+      "add": true,
+      "delete": true,
+      "sort": {
+        "column": "Name",
+        "direction": "ascending"
+      },
+      "columns": [
+        {
+          "caption": "InstanceID",
+          "name": "InstanceID",
+          "width": "75px",
+          "add": 0,
+          "edit": {
+            "type": "SelectInstance"
+          }
+        },
+        {
+          "caption": "Name",
+          "name": "Name",
+          "width": "auto",
+          "add": ""
+        },
+        {
+          "caption": "State",
+          "name": "State",
+          "width": "40px",
+          "add": "New!"
+        }
+      ],
+      "values": [
+        {
+          "InstanceID": 12435,
+          "Name": "ABCD",
+          "State": "OK!",
+          "rowColor": "#003300"
+        }
+      ]
     }
   ],
   "actions": [
     {
       "type": "Button",
-      "caption": "Register Interceptions",
-      "onClick": "LOPHI_RegisterIntercepts($id);"
+      "caption": "Update Intercepts",
+      "onClick": "HOOKIN_RemountHooks($id);"
     },
     {
       "type": "Button",
-      "caption": "Unregister Interceptions",
-      "onClick": "LOPHI_UnregisterIntercepts($id);"
+      "caption": "Unmount Intercepts",
+      "onClick": "HOOKIN_UnmountHooks($id);"
     }
   ],
   "status": []

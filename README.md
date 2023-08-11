@@ -1,6 +1,8 @@
-# IPSLandOfPlenty
+# IPSDevEssentials
 
-Folgende Module beinhaltet das IPSLandOfPlenty Repository:
+#### **IPSDevEssentials** ist a Library for IP-Symcon Systems.
+#### The Library consists of the following Modules.
 
-- __HookIntercept__ ([Dokumentation](HookIntercept))  
-	Kurze Beschreibung des Moduls.
+- **HookIntercept** ([Dokumentation](HookIntercept))  
+	Installs itself between the `WebHook` module and any receiving script or module. \
+	By default, all requests are passed through normally like before, but it provides an interface to inject scripts or to splitt/redirect the requests.
